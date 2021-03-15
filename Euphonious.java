@@ -69,7 +69,7 @@ public class Euphonious {
 
         if (charsIntoArray.length < 3) {
             System.out.println('0');
-        } else {
+        } else { // ---- checking VOWELS ----
             for (char c : charsIntoArray) {
                 for (char vowel : vowels) {
                     if (c == vowel) {
