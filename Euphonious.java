@@ -68,7 +68,7 @@ public class Euphonious {
         var counter = 0;
 
         if (charsIntoArray.length < 3) {
-            System.out.println('0');
+            System.out.println("0");
         } else { // ---- checking VOWELS ----
             for (char c : charsIntoArray) {
                 for (char vowel : vowels) {
@@ -115,3 +115,4 @@ public class Euphonious {
         numberOfCharsToInsert.clear();
     }
 }
+
